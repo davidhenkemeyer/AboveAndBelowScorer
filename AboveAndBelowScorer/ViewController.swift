@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var myNum = 0
+    @IBOutlet weak var myButton: UIButton!
+    @IBOutlet weak var myLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +23,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func buttonPressed(_ sender: Any) {
+        myNum += 1
+        myLabel.text = "\(myNum)"
+    }
 }
 
