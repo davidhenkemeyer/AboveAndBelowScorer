@@ -14,6 +14,8 @@
 		0972743420197DEE005BE977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0972743220197DEE005BE977 /* LaunchScreen.storyboard */; };
 		0972743F20197DEE005BE977 /* AboveAndBelowScorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0972743E20197DEE005BE977 /* AboveAndBelowScorerTests.swift */; };
 		0972744A20197DEE005BE977 /* AboveAndBelowScorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0972744920197DEE005BE977 /* AboveAndBelowScorerUITests.swift */; };
+		09A106A3201D21D000323EDB /* PlayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A106A2201D21D000323EDB /* PlayerListViewController.swift */; };
+		09A106A5201D21EA00323EDB /* ScoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A106A4201D21EA00323EDB /* ScoringViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0972744520197DEE005BE977 /* AboveAndBelowScorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboveAndBelowScorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0972744920197DEE005BE977 /* AboveAndBelowScorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboveAndBelowScorerUITests.swift; sourceTree = "<group>"; };
 		0972744B20197DEE005BE977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A106A2201D21D000323EDB /* PlayerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListViewController.swift; sourceTree = "<group>"; };
+		09A106A4201D21EA00323EDB /* ScoringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		0972741D20197DEE005BE977 = {
 			isa = PBXGroup;
 			children = (
+				09A106A2201D21D000323EDB /* PlayerListViewController.swift */,
+				09A106A4201D21EA00323EDB /* ScoringViewController.swift */,
 				0972742820197DEE005BE977 /* AboveAndBelowScorer */,
 				0972743D20197DEE005BE977 /* AboveAndBelowScorerTests */,
 				0972744820197DEE005BE977 /* AboveAndBelowScorerUITests */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0972742C20197DEE005BE977 /* ViewController.swift in Sources */,
+				09A106A3201D21D000323EDB /* PlayerListViewController.swift in Sources */,
+				09A106A5201D21EA00323EDB /* ScoringViewController.swift in Sources */,
 				0972742A20197DEE005BE977 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
